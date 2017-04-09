@@ -24,6 +24,7 @@ message = result['message']
 
 new_post=Post.new
 new_post.title = @title
+new_post.email = @email
 new_post.content = @content
 
 new_post.save
