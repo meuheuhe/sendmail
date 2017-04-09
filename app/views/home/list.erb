@@ -1,0 +1,9 @@
+<h1>list</h1>
+<h2><% @list1.each do |p|%></h2>
+제목 : <%= p.title %><br>
+
+내용 : <%= p.content %><br>
+보낸시간 : <%= p.created_at %>
+<br>
+<% end %>
+<h1><a href="/">메일 보내러가기</h1>
